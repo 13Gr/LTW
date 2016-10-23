@@ -13,6 +13,10 @@
     <script src="js/angular.min.js"></script>
     <script src="app.js"></script>
   <style>
+img {
+    width: 100%;
+    height: auto;
+}
 body{
 	background-color: #eee;
 	 padding-top:50px;
@@ -49,7 +53,7 @@ angular.module('sortApp', [])
 </script>
 </head>
 <body background="Image/bgr.jpg">
-<img align ="center" src="Image/cover.jpg" alt="logo 1" style="width:1348;height:300;">
+<img align ="center" src="Image/cover.jpg" alt="logo 1" width="1348" height="300">
 <div>
 
 <nav class="navbar navbar-inverse">
