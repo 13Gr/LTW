@@ -13,6 +13,10 @@
   
 
   <style>
+	  img {
+    width: 100%;
+    height: auto;
+}
 div.cities {
     background-color: blue;
     color: white;
@@ -33,7 +37,7 @@ footer {
 
 <div>
 <a href="LTWeb-IELTS.jsp">
-<img align ="center" src="Image/cover.jpg" alt="logo 1" style="width:1348;height:300;">
+<img align ="center" src="Image/cover.jpg" alt="logo 1" width="1348" height="300">
 </a>
 </div>
 <div>
