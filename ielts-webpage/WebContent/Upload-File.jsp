@@ -12,6 +12,10 @@
          <link href="css/font-awesome.min.css" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
 <style>
+	img {
+    width: 100%;
+    height: auto;
+}
 body{
 	background-color: #eee;
 }
@@ -59,7 +63,7 @@ footer {
 </style>
 </head>
 <body background="Image/bgr.jpg">
-<img align ="center" src="Image/cover.jpg" alt="logo 1" style="width:1348 ;height:300;">
+<img align ="center" src="Image/cover.jpg" alt="logo 1" width="1348" height="300">
 <div>
 
 <nav class="navbar navbar-inverse">
