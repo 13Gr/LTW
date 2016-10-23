@@ -109,7 +109,7 @@ footer {
     <div class="row">
       <div class="col-sm-6 col-md-6">
         <div class="thumbnail" >
-        <img src="Thi nghe ielts\share listen.PNG" alt="..." align="left">
+        <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
               <h3>Đề thi thử listening tại TT Việt Mỹ Group 3/2016</h3>
               <br>
@@ -125,7 +125,7 @@ footer {
       </div>
       <div class="col-sm-6 col-md-6">
         <div class="thumbnail">
-        <img src="Thi nghe ielts\share listen.PNG" alt="..." align="left">
+        <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
               <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
               <br>
@@ -141,7 +141,7 @@ footer {
       </div>
       <div class="col-sm-6 col-md-6">
         <div class="thumbnail">
-        <img src="Thi nghe ielts\share listen.PNG" alt="..." align="left">
+        <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
               <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
               <br>
@@ -157,7 +157,7 @@ footer {
       </div>
       <div class="col-sm-6 col-md-6">
         <div class="thumbnail">
-        <img src="Thi nghe ielts\share listen.PNG" alt="..." align="left">
+        <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
               <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
               <br>
