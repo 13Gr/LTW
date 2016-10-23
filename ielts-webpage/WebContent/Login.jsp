@@ -10,7 +10,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-		
+	img {
+    width: 100%;
+    height: auto;
+}	
 
 
 .login-card {
@@ -119,7 +122,7 @@ footer {
  <body background="Image/bgr.jpg">
 <div>
 <a href="LTWeb-IELTS.jsp">
-<img align ="center" src="Image/cover.jpg" alt="logo 2" style="width:1348;height:300;">
+<img align ="center" src="Image/cover.jpg" alt="logo 2" width="1348" height="300">
 </a>
 </div>
 <nav class="navbar navbar-inverse">
