@@ -1,4 +1,4 @@
-﻿<%@ page language="java"  contentType="text/html; charset=UTF-8"
+<%@ page language="java"  contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ footer {
       <a class="navbar-brand" href="#">WebSite hỗ trợ thi IELTS</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="Login-ThanhCong.jsp">Home</a></li>
+      <li ><a href="Login-ThanhCong.jsp">Home</a></li>
       <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -151,3 +151,4 @@ footer {
 	<footer class="margin-bottom:0px;margin-top:10px;">Copyright © luyenThiIELTS.com</footer>	
 </body>
 </html>
+
