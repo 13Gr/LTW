@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html >
 <head><title>Luyen thi IELTS</title>
   <meta charset="utf-8">
@@ -72,7 +72,7 @@ footer {
       <a class="navbar-brand" href="#">WebSite hỗ trợ thi IELTS</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="Login-ThanhCong.jsp">Home</a></li>
+      <li ><a href="Login-ThanhCong.jsp">Home</a></li>
       <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -208,3 +208,4 @@ footer {
 	</script>
 
 </html>
+
