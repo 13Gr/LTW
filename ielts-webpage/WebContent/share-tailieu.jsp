@@ -1,4 +1,4 @@
-﻿<%@ page language="java"  contentType="text/html; charset=UTF-8"
+<%@ page language="java"  contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -47,7 +47,7 @@ footer {
       <a class="navbar-brand" href="Login-ThanhCong.jsp">WebSite hỗ trợ thi IELTS</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="Login-ThanhCong.jsp">Home</a></li>
+      <li ><a href="Login-ThanhCong.jsp">Home</a></li>
       <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -107,9 +107,9 @@ footer {
   </div><!-- /.col-lg-6 -->
 <!-- /.row --><br><br><br>
     <div class="row">
-      <div class="col-sm-6 col-md-6">
+      <div class="col-sm-5 col-md-5">
         <div class="thumbnail" >
-        <img src="Image\share listen.PNG" alt="..." align="left">
+        <img src="Image\share listen.PNG" alt="..." align="left" width="20" height="20">
             <div class="caption">
               <h3>Đề thi thử listening tại TT Việt Mỹ Group 3/2016</h3>
               <br>
@@ -123,7 +123,7 @@ footer {
         </div>
 
       </div>
-      <div class="col-sm-6 col-md-6">
+      <div class="col-sm-5 col-md-5">
         <div class="thumbnail">
         <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
@@ -139,11 +139,11 @@ footer {
         </div>
 
       </div>
-      <div class="col-sm-6 col-md-6">
+      <div class="col-sm-5 col-md-5">
         <div class="thumbnail">
-        <img src="Image\share listen.PNG" alt="..." align="left">
+        <img src="Image\share reading.png" alt="..." align="left" width="10" height="10">
             <div class="caption">
-              <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
+              <h3>Đề thi thử Reading tại trung tâm iLa 1/2016</h3>
               <br>
               <p>Được đăng bởi: </p>
               <p>Lượt yêu thích</p>
@@ -155,7 +155,7 @@ footer {
         </div>
 
       </div>
-      <div class="col-sm-6 col-md-6">
+      <div class="col-sm-5 col-md-5">
         <div class="thumbnail">
         <img src="Image\share listen.PNG" alt="..." align="left">
             <div class="caption">
@@ -189,3 +189,4 @@ footer {
 <footer class="margin-bottom:0px;margin-top:10px;">Copyright © luyenThiIELTS.com</footer>		
 </body>
 </html>
+
