@@ -1,4 +1,4 @@
-﻿<%@ page language="java"  contentType="text/html; charset=UTF-8"
+<%@ page language="java"  contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -30,7 +30,7 @@ footer {
 </head>
 <body background="Image/bgr.jpg">
 <div>
-<a href="LTWeb-IELTS.jsp#">
+<a href="#">
 <img align ="center" src=" Image/cover.jpg" alt="logo 1" width="1348" height="300">
 </a>
 </div>
@@ -42,7 +42,7 @@ footer {
       <a class="navbar-brand" href="#">WebSite hỗ trợ thi IELTS</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="LTWeb-IELTS.jsp#">Home</a></li>
+      <li ><a href="Login-ThanhCong.jsp#">Home</a></li>
       <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -54,9 +54,18 @@ footer {
 	  <li><a href="LienHe.jsp">Liên hệ</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="SignUp.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="Login.jsp#about"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Tài khoản <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="Thongtinhocvien.jsp">Thông tin học viên</a></li>
+				<li><a href="DoiMatKhau.jsp">Đổi mật khẩu</a></li>
+
+				<li role="separator" class="divider"></li>
+				<li><a href="LTWeb-IELTS.jsp">Đăng xuất</a></li>
+
+			</ul>
+	</ul>
   </div>
 </nav>
 </div>
@@ -65,12 +74,12 @@ footer {
     <div class="col-sm-2">
 		<div class="container">
 	<ul class="col-sm-2 nav nav-pills nav-stacked">
-		<li class="active"><a href ="#">Danh mục</a></li>
-		<li><a href ="ThongTinHocVien.jsp">Tài khoản học viên</a></li>
 		<li><a href ="Luyentap-select-skill.jsp">Luyện tập</a></li>
-		<li><a href ="Lambaithi.jsp">Làm bài thi thử</a></li>
-		<li><a href ="Upload-File.jsp">Upload File</a></li>
-		<li><a href="share-tailieu.jsp">Share Tài Liệu</a></li>
+    <li><a href ="Lambaithi.jsp">Làm bài thi thử</a></li>
+    <li><a href ="Upload-File.jsp">Upload File</a></li>
+    <li ><a href="share-tailieu.jsp" >Share Tài Liệu</a></li>
+    <li><a href="hopThuDen1.jsp">Hộp Thư Đến</a></li>
+    <li><a href="soanTin2.jsp">Soạn Tin</a></li>
 	</ul>
 		</div>
 	</div>
