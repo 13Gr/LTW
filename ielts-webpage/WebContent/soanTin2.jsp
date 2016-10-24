@@ -1,4 +1,4 @@
-﻿<%@ page language="java"  contentType="text/html; charset=UTF-8"
+<%@ page language="java"  contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -46,7 +46,7 @@ footer {
       <a class="navbar-brand" href="#">WebSite hỗ trợ thi IELTS</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="LTWeb-IELTS.jsp">Home</a></li>
+      <li ><a href="Login-ThanhCong.jsp">Home</a></li>
       <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -69,9 +69,9 @@ footer {
     <div class="container">
   <ul class="col-sm-2 nav nav-pills nav-stacked">
      
-    <li><a href ="ThongTinHocVien.jsp">Tài khoản học viên</a></li>
+   
     <li><a href ="#">Luyện tập</a></li>
-    <li><a href ="Lambaithi-reading-Home.jsp">Làm bài thi thử</a></li>
+    <li><a href ="Lambaithi.jsp">Làm bài thi thử</a></li>
     <li><a href ="Upload-File.jsp">Upload File</a></li>
     <li><a href="share-tailieu.jsp">Share Tài Liệu</a></li>
     <li><a href="hopThuDen1.jsp">Hộp Thư Đến</a></li>
@@ -128,3 +128,4 @@ footer {
 <footer class="margin-bottom:0px;margin-top:10px;">Copyright © luyenThiIELTS.com</footer>		
 </body>
 </html>
+
