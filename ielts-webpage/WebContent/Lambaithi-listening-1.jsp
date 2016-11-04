@@ -5,11 +5,22 @@
 <head><title>Luyen thi IELTS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <style>
-	  img {
+ .form-sheet-answer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    overflow: scroll;
+    background: #FEFFB6;
+}
+img {
     width: 100%;
     height: auto;
 }
@@ -109,35 +120,8 @@ footer {
         
       </p >
         <iframe src="https://drive.google.com/file/d/0B8r9aQ-9E6rDaEdwSllqU010TmM/preview" style="height: 700px; width: 800px;" align="center"></iframe><br><br>
-        <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 1:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-    </div>
-    <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 2:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-    </div>...........
-    <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 10:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-      
         
-    </div>
-    <div><div><input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ẩn'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Xem'; }" style="font-size: 10px; margin: 0px; padding: 0px; width: 75px;height:20px" type="button" value="Xem đáp án" /></div><div><div style="display: none;"><pre>Section 1
-	1  Black
-	2  2085
-	3  9456 1309
-	4  2020BD
-	5  July
-	6, 7 , 8   B, D, F (in any order)
-	9  $25/ twenty-five dollars (refundable)
-	10  next week / in a week / in one week / the following week </pre></div></div></div>
+    
     </div>
    
     
@@ -145,7 +129,88 @@ footer {
 
 
   </div>
-	<div class="col-sm-2"></div>
+	
+	<div class="form-sheet-answer">
+		<div class="form-group form-group-sm">
+		
+			<h4 ><center>PHẦN TRẢ LỜI</center></h4>
+      		<label class="col-sm-4 control-label" for="sm">Câu 1:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 2:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 3:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 4:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 5:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 6:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 7:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 8:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 9:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 10:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    <div>
+    	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ẩn'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Xem'; }" style="font-size: 10px; margin: 0px; padding: 0px; width: 75px;height:20px" type="button" value="Xem đáp án" />
+    	</div>
+    	<div>
+    	<div style="display: none;"><pre>Section 1
+	1  Black
+	2  2085
+	3  9456 1309
+	4  2020BD
+	5  July
+	6, 7 , 8   B, D, F (in any order)
+	9  $25/ twenty-five dollars (refundable)
+	10  next week / in a week / in one week / the following week </pre>
+		</div>
+		</div>
+	</div>
+	</div>
   </div>
 </div>
 	<footer class="margin-bottom:0px;margin-top:10px;">Copyright © luyenThiIELTS.com</footer>	
