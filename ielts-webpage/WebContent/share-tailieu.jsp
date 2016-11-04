@@ -29,6 +29,7 @@ footer {
         clear: left;
         text-align: center;
         }
+       
 </style>
 </head>
 <body background="Image/bgr.jpg">
@@ -107,69 +108,98 @@ footer {
   </div><!-- /.col-lg-6 -->
 <!-- /.row --><br><br><br>
     <div class="row">
-      <div class="col-sm-5 col-md-5">
-        <div class="thumbnail" >
-        <img src="Image\share listen.PNG" alt="..." align="left" width="20" height="20">
-            <div class="caption">
-              <h3>Đề thi thử listening tại TT Việt Mỹ Group 3/2016</h3>
-              <br>
-              <p>Được đăng bởi: </p>
-              <p>Lượt yêu thích</p>
-              <p><a href="Share-listening-1.jsp" class="btn btn-primary" role="button">Xem</a> <a href="#" class="btn btn-default" role="button">Thêm vào yêu thích</a> 
-              </a> <button type="button" class="btn btn-default btn-md" >
+  	 <div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="Image\share listen.PNG" alt="left" >
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading">đề thi thử của trung tâm năm 2016</h2>
+    <span class="glyphicon glyphicon-share"></span>
+    <br><span class="glyphicon glyphicon-calendar"></span>
+    <p><a href="Share-listening-1.jsp" class="btn btn-primary btn-sm" role="button">Xem</a> 
+    <a href="#" class="btn btn-default btn-sm" role="button"><span class="glyphicon glyphicon-star"></span>Thêm vào yêu thích</a> 
+              </a> <button type="button" class="btn btn-default btn-sm" >
           <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
         </button></p>
-            </div>
-        </div>
-
-      </div>
-      <div class="col-sm-5 col-md-5">
-        <div class="thumbnail">
-        <img src="Image\share listen.PNG" alt="..." align="left">
-            <div class="caption">
-              <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
-              <br>
-              <p>Được đăng bởi: </p>
-              <p>Lượt yêu thích</p>
-              <p><a href="#" class="btn btn-primary" role="button">Xem</a> <a href="#" class="btn btn-default" role="button">Thêm vào yêu thích</a> <button type="button" class="btn btn-default btn-md" >
-          <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
-        </button>
-              </p>
-            </div>
-        </div>
-
-      </div>
-      <div class="col-sm-5 col-md-5">
-        <div class="thumbnail">
-        <img src="Image\share reading.png" alt="..." align="left" width="10" height="10">
-            <div class="caption">
-              <h3>Đề thi thử Reading tại trung tâm iLa 1/2016</h3>
-              <br>
-              <p>Được đăng bởi: </p>
-              <p>Lượt yêu thích</p>
-              <p><a href="#" class="btn btn-primary" role="button">Xem</a> <a href="#" class="btn btn-default" role="button">Thêm vào yêu thích</a> 
-              </a> <button type="button" class="btn btn-default btn-md" >
+       
+        
+  </div>
+  <hr color="black" size="3">
+</div>
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="Image\share listen.PNG" alt="left" >
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading">đề thi thử của trung tâm năm 2016</h2>
+    <span class="glyphicon glyphicon-share"></span>
+    <br><span class="glyphicon glyphicon-calendar"></span>
+    <p><a href="Share-listening-1.jsp" class="btn btn-primary btn-sm" role="button">Xem</a> 
+    <a href="#" class="btn btn-default btn-sm" role="button"><span class="glyphicon glyphicon-star"></span>Thêm vào yêu thích</a> 
+              </a> <button type="button" class="btn btn-default btn-sm" >
           <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
         </button></p>
-            </div>
-        </div>
-
-      </div>
-      <div class="col-sm-5 col-md-5">
-        <div class="thumbnail">
-        <img src="Image\share listen.PNG" alt="..." align="left">
-            <div class="caption">
-              <h3>Đề thi thử listening tại trung tâm iLa 1/2016</h3>
-              <br>
-              <p>Được đăng bởi: </p>
-              <p>Lượt yêu thích</p>
-              <p><a href="#" class="btn btn-primary" role="button">Xem</a> <a href="#" class="btn btn-default" role="button">Thêm vào yêu thích</a> </a> <button type="button" class="btn btn-default btn-md" >
+       
+        
+  </div>
+  <hr color="black" size="3">
+</div>
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="Image\share listen.PNG" alt="left" >
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading">đề thi thử của trung tâm năm 2016</h2>
+    <span class="glyphicon glyphicon-share"></span>
+    <br><span class="glyphicon glyphicon-calendar"></span>
+    <p><a href="Share-listening-1.jsp" class="btn btn-primary btn-sm" role="button">Xem</a> 
+    <a href="#" class="btn btn-default btn-sm" role="button"><span class="glyphicon glyphicon-star"></span>Thêm vào yêu thích</a> 
+              </a> <button type="button" class="btn btn-default btn-sm" >
           <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
         </button></p>
-            </div>
-        </div>
-
-      </div>
+       
+        
+  </div>
+  <hr color="black" size="3">
+</div>
+      
+      
+      <div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="Image\share listen.PNG" alt="left" >
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading">đề thi thử của trung tâm năm 2016</h2>
+    <span class="glyphicon glyphicon-share"></span>
+    <br><span class="glyphicon glyphicon-calendar"></span>
+    <p><a href="Share-listening-1.jsp" class="btn btn-primary btn-sm" role="button">Xem</a> 
+    <a href="#" class="btn btn-default btn-sm" role="button"><span class="glyphicon glyphicon-star"></span>Thêm vào yêu thích</a> 
+              </a> <button type="button" class="btn btn-default btn-sm" >
+          <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
+        </button></p>
+       
+        
+  </div>
+  <hr color="black" size="3">
+</div>
+<div class="media">
+  <a class="pull-left" href="Share-listening-1.jsp">
+    <img  class="media-object" src="Image\share reading.png" alt="left" >
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading"><a href="Share-listening-1.jsp">đề thi thử của trung tâm năm 2016</a></h2>
+    <span class="glyphicon glyphicon-share"></span>phạm công dân
+    <br><span class="glyphicon glyphicon-calendar"></span>21/10/2017
+    <p>
+    <a href="#" class="btn btn-default btn-sm" role="button"><span class="glyphicon glyphicon-star"></span>Thêm vào yêu thích</a> 
+              </a> <button type="button" class="btn btn-default btn-sm" >
+          <a href="C:\Users\Dan Pham\Pictures\Saved Pictures\Jersey0_11.jpg" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true" ></span> Tải về</a>
+        </button></p>
+       
+        
+  </div>
+  <hr color="black" size="3">
+</div>
     </div>
     <div class="col-sm-12" >
       <nav aria-label="..." align="center">
