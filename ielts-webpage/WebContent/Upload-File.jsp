@@ -1,3 +1,5 @@
+<%@ page language="java"  contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html >
 <head><title>Luyen thi IELTS</title>
@@ -117,29 +119,23 @@ footer {
 		</div>
 	</div>
 	
- <div class="container kv-main col-sm-10">   
+ <div class="container kv-main col-sm-10">
+ 	<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Reading</a></li>
+  <li role="presentation"><a href="Upload-File-Listen.jsp">Listening</a></li>
+  
+</ul>   
+  	<br>
   	<p><label>Name File: </b><input type="text" id="Namefile" placeholder="Enter name of file"></label></p>
-  	<hr>
+  	
   	<div class="col-sm-5" >        
         <label>Readling:</label>
-        <input id="file-es" name="file-es[]" type="file" multiple>
-        <a href="#" class="btn btn-5 fa fa-share">Share</a>
+        <input id="file-es" name="file-es[]" type="file" multiple> <br>
+        <a href="#"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> Upload File</button></a>
+        <a ><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</button></a>
 
         </div>
-        <div class="col-sm-5" >  
-        <label>Listening:</label>
-        <input id="file-es1" name="file-es[]" type="file" multiple>
-         <a href="#" class="btn btn-5 fa fa-share">Share</a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <label>Audio:</label>
-        <input id="file-es2" name="file-es[]" type="file" multiple>
-        <a href="#" class="btn btn-5 fa fa-share">Share</a>
-
-
-        </div>
+        
 
         </div>
 	</div>
@@ -208,4 +204,5 @@ footer {
 	</script>
 
 </html>
+
 
