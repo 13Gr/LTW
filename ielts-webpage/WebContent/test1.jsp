@@ -6,6 +6,7 @@
   <meta charset="utf-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -64,6 +65,14 @@ div.cities {
     margin: 20px 0 20px 0;
     padding: 20px;
 } 
+ .form-sheet-answer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    overflow: scroll;
+    background: #FEFFB6;
+}
 .thumb {
     width: 200px;
     height: 200px;
@@ -160,28 +169,496 @@ footer {
         <iframe allowfullscreen="" frameborder="0" height="26" src="https://www.youtube.com/embed/upYlc1QcbFk?rel=0&amp;showinfo=0" width="420"></iframe>
       </p>
         <iframe src="https://drive.google.com/file/d/0B8r9aQ-9E6rDMGNRRFlfTzlWXzg/preview" style="height: 700px; width: 800px;" align="center"></iframe>
-      <p class="navbar-text">READING</p><br><br><br><br>
-      
-    <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 1:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-    </div>
-    <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 2:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-    </div>
-    <div class="form-group form-group-sm">
-      <label class="col-sm-2 control-label" for="sm">Câu 3:</label>
-      <div class="col-sm-10">
-        <input class="form-control" type="text" id="sm"><br>
-      </div>
-    </div>
-    <button type="button" class="btn btn-primary btn-lg" onclick="alert('Bạn có chắc nộp ')">Nộp bài</button>
-
+     
+      <div class="form-sheet-answer">
+		<div class="form-group form-group-sm">
+		
+			<h4 ><center>PHẦN TRẢ LỜI</center></h4>
+			<h4><center>READING</center></h4>
+      		<label class="col-sm-4 control-label" for="sm">Câu 1:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 2:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 3:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 4:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 5:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 6:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 7:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 8:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 9:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 10:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 11:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 12:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 13:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 14:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 15:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 16:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 17:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 18:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 19:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 20:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 21:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 22:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 23:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 24:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 25:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 26:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 27:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 28:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 29:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 30:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 31:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 32:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 33:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 34:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 35:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 36:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 37:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 38:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 39:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 40:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<h4><center>WRITING</center></h4>
+    	<div>
+    	<label class="col-sm-4 control-label" for="sm">Câu 1:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 2:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 3:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 4:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 5:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 6:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 7:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 8:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 9:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 10:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 11:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 12:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 13:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 14:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 15:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 16:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 17:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 18:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 19:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 20:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 21:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 22:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 23:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 24:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 25:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 26:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 27:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 28:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 29:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 30:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<div>
+    		<label class="col-sm-4 control-label" for="sm">Câu 31:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 32:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 33:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 34:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 35:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 36:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 37:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 38:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 39:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div>
+    	</div>
+    	<div class="form-group form-group-sm">
+      		<label class="col-sm-4 control-label" for="sm">Câu 40:</label>
+      		<div class="col-sm-8">
+        	<input class="form-control" type="text" id="sm"><br>
+      		</div> 
+    	</div>
+    	<center>
+    	<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span> Nộp bài</button>
+		</center>
+	</div>
 
     </div>
     
@@ -197,4 +674,3 @@ footer {
 	<footer class="margin-bottom:0px;margin-top:10px;">Copyright © luyenThiIELTS.com</footer>	
 </body>
 </html>
-
