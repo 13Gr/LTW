@@ -143,7 +143,7 @@ footer {
         
         <div class="col-sm-10">
         	<center>
-        		<a href="#"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> Upload File</button></a>
+        		
        			<a ><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</button></a>
  
         	</center>
