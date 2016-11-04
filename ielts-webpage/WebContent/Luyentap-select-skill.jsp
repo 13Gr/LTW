@@ -96,7 +96,7 @@ div.cities {
       <td><b>Lượt xem</b></td>
     </tr>
     <tr>
-      <td><a href="Lambaithi-reading.jsp" >IELTS Reading Sample 1</td>
+      <td><a href="Lambaithi-reading-1.jsp" >IELTS Reading Sample 1</td>
       <td>20</td>
     </tr>
     <tr>
